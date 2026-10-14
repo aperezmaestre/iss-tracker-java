@@ -1,4 +1,21 @@
-# ISS Tracker — Java Swing Desktop App
+# ISS Tracker — Real-Time Java Desktop Application
+
+**Java · Swing/AWT · HTTP APIs · Geospatial visualization · Data structures**
+
+A desktop prototype that polls the International Space Station's reported position, projects coordinates onto a world map, and draws a recent-position trail. Built as a practical exercise in connecting a desktop interface to external data.
+
+### Engineering highlights
+
+- **API integration:** fetches latitude, longitude, and timestamps from a public ISS-position service.
+- **Interactive interface:** Swing-based map, manual refresh, and periodic updates.
+- **State management:** bounded tracking history to visualize recent locations without unbounded growth.
+- **Known tradeoffs:** map projection needs improvement; network requests and JSON parsing are deliberately simple rather than production-grade.
+
+> **Portfolio status:** Educational prototype. Live tracking depends on a third-party endpoint; accuracy, availability, and redistribution rights for bundled images have not been independently revalidated.
+
+---
+
+## Technical details
 
 A Java Swing desktop project that requests the **International Space Station (ISS)** coordinates from the Open Notify service and plots the reported position and recent tracking trail on a world map.
 
