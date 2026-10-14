@@ -1,0 +1,19 @@
+# Compiled Java / build artifacts
+*.class
+target/
+out/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS / temporary files
+.DS_Store
+*.log
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
